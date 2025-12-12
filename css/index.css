@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    border-bottom: 1px solid #e0e0e0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: white;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+
+}
+
+.nav-menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.nav-menu a:hover {
+    color: #2563eb;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.main {
+    text-align: center;
+    padding: 120px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.main h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.main > p {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.btn {
+    padding: 14px 32px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #2563eb;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #1d4ed8;
+}
+
+.btn-second {
+    color: black;
+    border: 1px solid #d1d5db;
+}
+
+.btn-second:hover {
+    background: #f9fafb;
+}
+
+.intro-box {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.intro-box p {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.intro-box p:last-child {
+    margin-bottom: 0;
+}

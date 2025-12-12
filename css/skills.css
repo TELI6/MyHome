@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    border-bottom: 1px solid #e0e0e0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: white;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+
+}
+
+.nav-menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.nav-menu a:hover {
+    color: #2563eb;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.skills {
+    max-width: 1320px;
+    margin: 80px auto;
+    padding: 0 40px;
+}
+
+.skills h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.skills-content-box, .skills-right{
+    display: flex;
+}
+.skills-content-box{
+    justify-content: space-between;
+}
+.skills-right{
+    gap: 50px;
+}
+.skills-left, .skills-right{
+    max-width: 600px;
+}
+.skills-left h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.skills-detail h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.skills-bar{
+    width: 40px;
+    position: relative;
+}
+.skills-detail{
+    display: flex;
+    flex-direction: column;
+}
+.skill-item {
+    margin-bottom: 50px;
+}
+
+.skill-header {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.skill-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+}
+
+.skill-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.skill-description {
+    font-size: 16px;
+    color: #666;
+    padding-left: 40px;
+}
+
+.competency-item {
+    margin-bottom: 50px;
+}
+
+.competency-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.competency-description {
+    font-size: 16px;
+    color: #666;
+}
+
+.border{
+    width: 19px;
+    height: 100%;
+    border-right: 1px solid black;
+}
+
+#university{
+    position: absolute;
+    top:0;
+}
+
+#activity{
+    position: absolute;
+    top: 140px;
+}
+
+#certifications{
+    position: absolute;
+    top: 460px;
+}
+#university, #activity, #certifications{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 20px;
+    border: 1px solid black;
+}
+
+.education-section {
+    margin-bottom: 50px;
+}
+
+.education-item {
+    margin-bottom: 30px;
+}
+
+.edu-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 5px;
+}
+
+.edu-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edu-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.edu-detail {
+    font-size: 16px;
+    color: #666;
+    padding-left: 40px;
+}
+.cert-section{
+    margin-top: 50px;
+}
+.cert-section h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.cert-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.cert-badge {
+    width: 20px;
+    height: 20px;
+}
+
+.cert-text {
+    font-size: 16px;
+    color: #333;
+}
+
+.cert-date {
+    font-size: 16px;
+    color: #999;
+    margin-left: auto;
+}

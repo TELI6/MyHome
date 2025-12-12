@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    border-bottom: 1px solid #e0e0e0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: white;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+
+}
+
+.nav-menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.nav-menu a:hover {
+    color: #2563eb;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.projects {
+    max-width: 1320px;
+    margin: 80px auto;
+    padding: 0 40px;
+}
+
+.projects h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.project-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 40px 35px;
+    background: white;
+    transition: all 0.3s;
+}
+
+.project-card:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transform: translateY(-4px);
+}
+
+.project-card h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.project-description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.project-info {
+    margin-bottom: 25px;
+}
+
+.info-item {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.info-label {
+    font-weight: 600;
+    color: #333;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.btn {
+    padding: 11px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: #2563eb;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #1d4ed8;
+}
+
+.btn-secondary {
+    background: white;
+    color: #333;
+    border: 1px solid #d1d5db;
+}
+
+.btn-secondary:hover {
+    background: #f9fafb;
+}
