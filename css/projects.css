@@ -146,6 +146,38 @@ nav {
     padding: 5px;
     width: 100%;
 }
+
+.connect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    padding: 40px;
+    border: 1px solid #e0e0e0;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+.connect-frame, .connect-item, .connect-item > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.connect-item > img{
+    width: 25px;
+    height: 25px;
+}
+.connect-frame{
+    gap : 50px;
+}
+.connect-item, .connect-item > p{
+    gap:10px;
+}
+.title{
+    font-weight: 600;
+}
+.connect h2{
+    font-size: 20px;
+}
 @media screen and (max-width:767px) {
     .buttons {
         flex-direction: column;
@@ -175,5 +207,10 @@ nav {
         background-color: rgb(245, 245, 245);
         right: 40px;
         top: 20px;
+    }
+    .connect-frame{
+        flex-direction: column;
+        align-items: start;
+        gap:20px;
     }
 }
