@@ -106,15 +106,13 @@ nav {
     font-weight: 600;
     margin-bottom: 10px;
 }
-
-.icon {
-    font-size: 22px;
-}
-
 .section-content {
     font-size: 18px;
     color: #555;
     padding-left: 50px;
+}
+.section-item:last-child > .section-content{
+    padding-left: 40px;
 }
 .menu-img{
     display: none;

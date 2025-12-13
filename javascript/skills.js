@@ -29,7 +29,7 @@ function addCertItem() {
     let certSection = document.querySelector(".cert-section");
     const certificates = [
         { name: "정보처리기능사", date: "2024-12-11" },
-        { name: "컴퓨터활용능력", date: "2024-03-22" },
+        { name: "컴퓨터활용능력2급", date: "2024-03-22" },
         { name: "ITQ 엑셀", date: "2022-06-30" },
     ];
     let rs = "";
@@ -50,7 +50,7 @@ function EducationItemDocument(title, detail, date){
 }
 
 function addEducationItem(){
-    let studyEducation = document.querySelector("#study-education");
+    let studyEducation = document.querySelector(".study-education");
     const Education = [
         {title:"ICPC", detail:"경쟁 프로그래밍 대회에 참가함", date:"2025.10.11"},
         {title:"SUSC Study", detail:"알고리즘 및 자료구조 그룹 스터디 세션에 참여함", date:"2025.07.05 ~ 2025.08.10"},
@@ -73,13 +73,13 @@ function CompetencyItemDocument(title, description){
 function addCompetencyItem(){
     let competencys = document.querySelector("#competencys");
     const Competency = [
-        {title:"CS 기반 원리 이해", description:`O(n²) 버블정렬을 O(n log n) 병합정렬로 전환하여 처리 시간 300ms → 40ms로 최적화 
+        {title:"1. CS 기반 원리 이해", description:`O(n²) 버블정렬을 O(n log n) 병합정렬로 전환하여 처리 시간 300ms → 40ms로 최적화 
         시간복잡도 및 내부 동작 구조를 기준으로 알고리즘 선택 및 설계 의사결정 수행`},
-        {title:"논리적 문제 해결 능력", description:`무한 루프 발생 케이스에서 재현 → 가설 → 로그 검증 → 수정 단계로 원인 식별
+        {title:"2. 논리적 문제 해결 능력", description:`무한 루프 발생 케이스에서 재현 → 가설 → 로그 검증 → 수정 단계로 원인 식별
         조건 갱신 누락 문제 해결을 통해 비정상 종료 이슈 제거 (while 조건 갱신 로직 위치 재조정)`},
-        {title:"빠른 실전 적용력", description:`로또 번호 추천 서비스 기획 → UI/UX → 구현 → 배포까지 4일 내 완성 (개인 프로젝트) 
-        핵심 기능 중심 MVP 개발: 자동 번호 추천, 최근 패턴 분석/시각화, 필터 기능`},
-        {title:"기획, UX 중심 사고", description:`네비게이션 구조 재설계로 기능 접근 경로 3단계 → 1단계로 축소, 사용자 행동 비용 감소. 
+        {title:"3. 빠른 실전 적용력", description:`로또 번호 추천 서비스 기획 → UI/UX → 구현 → 배포까지 4일 내 완성 (개인 프로젝트) 
+        핵심 기능 중심 MVP(최소 기능 제품) 개발: 자동 번호 추천, 최근 패턴 분석/시각화, 필터 기능`},
+        {title:"4. 기획, UX 중심 사고", description:`네비게이션 구조 재설계로 기능 접근 경로 3단계 → 1단계로 축소, 사용자 행동 비용 감소. 
         기능 추가보다 사용 흐름과 경험 품질을 우선 고려하는 설계 방식 적용`},
     ];
     let rs = "";
