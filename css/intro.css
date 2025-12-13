@@ -123,6 +123,9 @@ nav {
     width: 100%;
 }
 @media screen and (max-width:767px) {
+    .about h1 {
+        font-size: 28px;
+    }
     .profile-card {
         flex-direction: column;
     }

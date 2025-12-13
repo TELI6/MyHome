@@ -178,7 +178,16 @@ nav {
 .connect h2{
     font-size: 20px;
 }
+.connect a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
 @media screen and (max-width:767px) {
+    .projects h1 {
+        font-size: 28px;
+    }
+
     .buttons {
         flex-direction: column;
     }
@@ -211,6 +220,17 @@ nav {
     .connect-frame{
         flex-direction: column;
         align-items: start;
+        width: 100%;
         gap:20px;
+    }
+    .connect-item > img{
+        display: none;
+    }
+    .connect-item > p{
+        flex-direction: column;
+        align-items: start;
+    }
+    .connect-item, .connect-item > p{
+        gap:5px;
     }
 }
